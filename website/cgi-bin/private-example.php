@@ -4,8 +4,8 @@
 if ($frameID == '') {
     $frameID = 'defaultFrame';
 }
-$dataPath = '/home/user/website/photoFrameHiddenData/' . $frameID . '/';
-$imagePath = '/home/user/website/photoFrameImages/' . $frameID . '/';
+$dataPath = '/home/user/website/data/' . $frameID . '/';
+$imagePath = '/home/user/website/images/' . $frameID . '/';
 
 if ($frameID === 'frame2') {
   //newer one had slightly different dimensions
